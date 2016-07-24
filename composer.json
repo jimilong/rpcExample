@@ -1,0 +1,33 @@
+{
+    "name": "longmsdu/projectrpc",
+    "description": "simple rpc base on http",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "longmsdu",
+            "email": "longmsdu@163.com"
+        }
+    ],
+    "require": {
+      "longmsdu/jsonRpc": "master"
+    },
+    "autoload": {
+      "psr-4": {
+
+      }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "https://packagist.phpcomposer.com"
+      },
+      {"packagist": false},
+      {
+        "type": "vcs",
+        "url": "https://github.com/longmsdu/jsonRpc"
+      }
+    ]
+}
