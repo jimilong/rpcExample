@@ -5,8 +5,8 @@ require 'vendor/autoload.php';
 
 use Rpc\jsonRPCServer;
 
-include('member.php');
+class_alias(App\Member::class, 'Member');
 
-$obj = new Member();
+$server = new jsonRPCServer();
 
-jsonRPCServer::handle($obj) or print('no request');
+$server->handle() or print('no request');

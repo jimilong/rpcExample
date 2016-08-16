@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ef9ec58f1c40c523657e768f09aea45f",
-    "content-hash": "716f96aee79d2c89a9747e38fc8bba8f",
+    "hash": "97ee7e2e05e76264a6fded26c50101d4",
+    "content-hash": "1947298bccffb17d698d1a0b70170f23",
     "packages": [
         {
             "name": "longmsdu/jsonRpc",
-            "version": "dev-master",
+            "version": "dev-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/longmsdu/jsonRpc.git",
-                "reference": "4cf9c8cbaf42c32f503229b5f6f3dc07e640c4c2"
+                "reference": "4fe9ca494fc90e15ac317926dcd3713b9c83eb61"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/longmsdu/jsonRpc/zipball/4cf9c8cbaf42c32f503229b5f6f3dc07e640c4c2",
-                "reference": "4cf9c8cbaf42c32f503229b5f6f3dc07e640c4c2",
+                "url": "https://api.github.com/repos/longmsdu/jsonRpc/zipball/4fe9ca494fc90e15ac317926dcd3713b9c83eb61",
+                "reference": "4fe9ca494fc90e15ac317926dcd3713b9c83eb61",
                 "shasum": ""
             },
             "type": "library",
@@ -38,16 +38,18 @@
             ],
             "description": "simple rpc base on http",
             "support": {
-                "source": "https://github.com/longmsdu/jsonRpc/tree/master",
+                "source": "https://github.com/longmsdu/jsonRpc/tree/dev",
                 "issues": "https://github.com/longmsdu/jsonRpc/issues"
             },
-            "time": "2016-07-24 09:57:56"
+            "time": "2016-08-16 01:07:12"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "longmsdu/jsonrpc": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

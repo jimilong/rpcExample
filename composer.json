@@ -10,11 +10,11 @@
         }
     ],
     "require": {
-      "longmsdu/jsonRpc": "master"
+      "longmsdu/jsonRpc": "dev-dev"
     },
     "autoload": {
       "psr-4": {
-
+        "App\\": "app/"
       }
     },
     "prefer-stable": true,

@@ -1,5 +1,7 @@
 <?php
 
+namespace App;
+
 class Member
 {
      public function __construct() {}

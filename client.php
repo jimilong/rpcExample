@@ -4,11 +4,11 @@ require 'vendor/autoload.php';
 
 use Rpc\jsonRPCClient;
 
-$client  = new jsonRPCClient('http://www.long.test:8080/rpcproject/server.php');
+$client  = new jsonRPCClient('http://www.long.test:8080/example/server.php');
 
 try {
     //call this method from network
-    echo $client->hello();
+    echo $client->request('Member', 'hello', []);
 }catch(Exception $e) {
     echo$e->getMessage(); 
 }
